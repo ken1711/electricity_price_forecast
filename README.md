@@ -32,17 +32,7 @@ Today, Germany and Luxembourg continue to operate as a single bidding zone, refl
 In this shared zone, a unified wholesale electricity price applies across both countries. This arrangement is rooted in historical market structures and integration efforts.
 
 Electricity prices are determined using the merit-order principle: power plants are dispatched based on their marginal costs, and the most expensive unit required to meet demand sets the market price.
-
-| Source | Marginal Cost|
-| :------| :------------|
-| Wind/Solar   | ~€0 | 
-| Nuclear / Lignite    | Low |                            
-| Coal   | Medium |                            
-| Gas     | High (Often price-setter) | 
-
-When renewables cover most demand → prices fall. 
-
-When gas plants are needed → prices rise.
+When renewables cover most demand, prices fall. When gas is needed, prices rise.
 
 
 ## 🔗 Project Workflow
