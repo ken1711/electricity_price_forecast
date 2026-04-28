@@ -464,6 +464,8 @@ What can be improved:
 
 - [XGBoost Documentation](https://xgboost.readthedocs.io/en/latest/python/sklearn_estimator.html)
 
+- [LightGBM Documentation](https://lightgbm.readthedocs.io/en/stable/Python-Intro.html)
+
 - [FastAPI Documentation](https://fastapi.tiangolo.com/tutorial/)
 
 - [Streamlit Documentation](https://docs.streamlit.io/)
