@@ -1,6 +1,6 @@
 # ⚡Electricity Price Forecasting
 
-![Python](https://img.shields.io/badge/Python-3.13-blue) ![XGBoost](https://img.shields.io/badge/XGBoost-Model-orange) ![LightGBM](https:////img.shields.io/badge/Lightgbm-Model-purple)
+![Python](https://img.shields.io/badge/Python-3.13-blue) ![XGBoost](https://img.shields.io/badge/XGBoost-Model-orange) ![LightGBM](https://img.shields.io/badge/Lightgbm-Model-purple)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green) ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red)![Docker](https://img.shields.io/badge/Docker-Containerized-blue) ![Azure](https://img.shields.io/badge/Azure-Container_Apps-lightblue)
 
 A machine learning system that predicts day-ahead hourly electricity prices for Germany/Luxembourg, using SMARD and Copernicus Climate data.
