@@ -1,0 +1,23 @@
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# install system dependency FIRST
+RUN apt-get update && apt-get install -y \
+    libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements and install dependencies
+COPY fastapi_requirements.txt .
+RUN pip install --no-cache-dir -r fastapi_requirements.txt
+
+# Copy app and model
+COPY fastapi_app.py .
+COPY electricity_price_lgbm_model.joblib .
+
+# Expose FastAPI port
+EXPOSE 8000
+
+# Command to run FastAPI with uvicorn
+CMD ["uvicorn", "fastapi_app:app", "--host", "0.0.0.0", "--port", "8000"]
