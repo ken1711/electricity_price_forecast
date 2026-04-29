@@ -482,5 +482,5 @@ This project is released under the MIT License.
 
 ## 📬Contact
 
-github: https://github.com/ken1711
+Github: https://github.com/ken1711
                            
